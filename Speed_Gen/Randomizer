@@ -4,6 +4,8 @@ import array
 acc_sample = 5  # Sampling acceleration every 5 seconds
 iteration = 0  
 acc_array = []
+arr_length = 30 # Assume that given data set has 30
+
 while iteration < 30:   # 10 samples for testing purposes
     num1 = random.randint(48, 120)  # Random speed from 48km/h to 120km/h
     num2 = random.randint(66, 102)  # Random speed from 48km/h to 120km/h
@@ -13,3 +15,7 @@ while iteration < 30:   # 10 samples for testing purposes
     acc_array.append(current_acc)
     iteration += 1
 print(acc_array)
+
+for i in range(arr_length):
+    if acc_array[i] > 5:  # If the speed change is more than 5, send the warning to the driver
+        print("Waring! Wake up!!!")
