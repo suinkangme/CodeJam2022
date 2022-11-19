@@ -19,5 +19,3 @@ print(acc_array)
 for i in range(arr_length):
     if acc_array[i] > 5:  # If the speed change is more than 5, send the warning to the driver
         print("Waring! Wake up!!!")
-        i += 5
-        print(i)
