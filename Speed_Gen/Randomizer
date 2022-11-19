@@ -13,3 +13,9 @@ while iteration < 30:   # 10 samples for testing purposes
     acc_array.append(current_acc)
     iteration += 1
 print(acc_array)
+
+for i in range(len(acc_array)):
+    if acc_array[i] > 5:  # If the speed change is more than 5, send the warning to the driver
+        print("Waring! Wake up!!!")
+        break
+
