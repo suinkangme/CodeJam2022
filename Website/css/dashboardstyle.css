@@ -252,13 +252,13 @@
 
 .welcome-student {
   position: relative;
-  background: #dfe4f6;
+  background: #b4b2d2;
   box-sizing: initial;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 30px;
   padding-bottom: 20px;
   border-radius: 10px;
   margin: 18px;
   width: 620px;
-  height: 160px;
+  height: 120px;
 }
