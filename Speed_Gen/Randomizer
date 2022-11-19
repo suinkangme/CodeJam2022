@@ -1,0 +1,15 @@
+import random
+import array
+
+acc_sample = 5  # Sampling acceleration every 5 seconds
+iteration = 0  
+acc_array = []
+while iteration < 30:   # 10 samples for testing purposes
+    num1 = random.randint(48, 120)  # Random speed from 48km/h to 120km/h
+    num2 = random.randint(66, 102)  # Random speed from 48km/h to 120km/h
+    v_init = num1
+    v_final = num2
+    current_acc = abs((v_final - v_init) / acc_sample)   # acceleration in m/s^2
+    acc_array.append(current_acc)
+    iteration += 1
+print(acc_array)
