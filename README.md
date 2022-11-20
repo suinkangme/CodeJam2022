@@ -9,7 +9,7 @@
 <br>
 
 <h4>[ Judges ]🙋‍</h4>
-- *Matrox, 123Loadboard, 1Password, Canadian National Railway Company, ServiceNow, HoYoVerse, Mistplay, Morgan Stanley, Giro*
+*Matrox, 123Loadboard, 1Password, Canadian National Railway Company, ServiceNow, HoYoVerse, Mistplay, Morgan Stanley, Giro*
 
 <br>
 <br>
