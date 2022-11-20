@@ -59,8 +59,6 @@ https://devpost.com/software/schoolmate
 
 ***
 
-<br>
-
 ## 2. Challenge Question - Pain Points for Carriers 🚚 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 
 <img src = "123Loadboard_Challenge/Quality_Driver_Background.png">
