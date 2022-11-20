@@ -70,9 +70,8 @@
 ## 2. Challenge Question - Pain Points for Carriers 🚚 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 This is the Challenge Question from 123LoadBoard as part of the 12th Edition of McGill CodeJam.
 
-The question choosed by Team Clueless 
-
-Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for several hours straight, and if they are not well rested, they can experience fatigue and sleepiness on the road. Drowsiness while driving is hazardous for carriers and surrounding drivers. Keeping carriers awake and alert could save lives.
+<h3>Challenge</h3>
+- Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for several hours straight, and if they are not well rested, they can experience fatigue and sleepiness on the road. Drowsiness while driving is hazardous for carriers and surrounding drivers. Keeping carriers awake and alert could save lives.
 
 <h3>💡Concepts💡</h3>
 - A carrier is a trucker that moves loads of merchandise from point A to point B. A broker posts loads they need delivered on load boards to try to get their loads hauled by a carrier. A pain point is a common issue or problem faced by carriers and brokers that makes their jobs more difficult.
