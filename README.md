@@ -1,6 +1,6 @@
 ## CodeJam2022_McGill
 
-<h4>[ Team Clueless ]</h4>
+<h4>*[ Team Clueless ]</h4>
 - Tung Do(https://github.com/OddyTD)
 - Kimia Goodarzi(https://github.com/QueenKimm)
 - Suin Kang(https://github.com/suinkangme)
