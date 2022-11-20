@@ -60,6 +60,7 @@
 - The majority of work we did in the hackathon is front-end based, and we could not implement back-end work like saving students' information to the database because we ran out of time. So, We need to work on the database and also need think about how can we effectively give inspiration to students to make them study harder.  
 
 <h4>Devpost</h4>
+https://devpost.com/software/schoolmate
 
 ***
 
