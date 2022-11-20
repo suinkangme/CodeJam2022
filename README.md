@@ -32,12 +32,31 @@
 ## 1. Website - SchoolMate 📝 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
 
 <h3>💡Concepts💡</h3>
--
+- Students are always busy with school with many workloads and class schedules. Sometimes, they used to miss important deadlines and cannot make a study plan because they get overwhelmed by pressure. SchoolMate can help students to improve their GPA, but also to succeed in their university life. 
 
 <h3>🎯Our solution🎯</h3>
+- SchoolMate provides personalized schedules for every single student, who wishes to improve their GPA and create effective schedules to manage their school workload. It shows how many hours you study for a specific course, and tell which course you need to study more. Also, there is a progress status so that students can see how much percentage they accomplish their study goals. It inspires them to keep studying harder. 
+<br>
+
+<h4>Inspiration</h4>
 - 
 
-<br>
+<h4>What it does</h4>
+-  
+
+<h4>Challenges we ran into</h4>
+- 
+
+<h4>Accomplishments that we're proud of</h4>
+
+
+<h4>What we learned</h4> 
+- 
+
+<h4>What's next for Quality Driver</h4>
+- 
+
+<h4>Devpost</h4>
 
 ***
 
