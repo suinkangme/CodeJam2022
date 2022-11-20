@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dashboardstyle.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<title>CodeJam 2022</title>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bxs-graduation icon'></i>
+            <div class="logo_name">SchoolMate</div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search...">
+                <span class="tooltip">Search</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Profile</span>
+                </a>
+                <span class="tooltip">Profile</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-folder'></i>
+                    <span class="links_name">Courses</span>
+                </a>
+                <span class="tooltip">Course</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-pie-chart-alt-2'></i>
+                    <span class="links_name">Progress</span>
+                </a>
+                <span class="tooltip">Progress</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-chat'></i>
+                    <span class="links_name">Messages</span>
+                </a>
+                <span class="tooltip">Messages</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-heart'></i>
+                    <span class="links_name">Challenges</span>
+                </a>
+                <span class="tooltip">Challenges</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="links_name">Settings</span>
+                </a>
+                <span class="tooltip">Settings</span>
+            </li>
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="img/avatar2.png" alt="profilepicture">
+                    <div class="name_job">
+                        <div class="name">John Doe</div>
+                        <div class="job">Student</div>
+                    </div>
+                </div>
+                <i class='bx bx-log-out' id="log_out"></i>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="dash">Dashboard</div>
+        <div class="topgrid-container">
+            <div class="topgrid-child left">
+                <div class="welcome-student">
+                    <span>
+                        <h1 style="font-size: 36px;">Welcome John!</h1>
+                        <p style="font-size: 16px;">It's good to see you again.</p>
+                        <img class="guy" src="img/guy.png" width="300">
+                    </span>
+
+                </div>
+                <div class="grid-container">
+                    <div class="grid-child points">
+                        <h3 style="margin-top: 21px; margin-bottom: -6%;">Total Points</h3>
+                        <h3 style="margin-top: -30px; margin-bottom: -26%; font-size: 70px;">550</h3>
+                        <img class="speedometer" src="img/speedometer.png" width="250">
+                    </div>
+                    <div class="grid-child attendance-container">
+                        <h3 style="margin-top: 20px; margin-bottom: -6%;">Attendance</h3>
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topgrid-child right">
+                <div class="leaderboard">
+                    <h3 class="leaderboardtext" style="margin-top: 10px; text-align: left;">Leaderboard</h3>
+                    <div class="leaderboardcontainer">
+                        <div class="barcontainer">
+                            <p></p>
+                            <div class="bar" style="height:85%">
+                                <p style="color: #fff; text-align: center; margin-top: 480%;">850</p>
+                            </div>
+                        </div>
+                        <div class="barcontainer">
+                            <div class="bar" style="height:80%">
+                                <p style="color: #fff; text-align: center; margin-top: 450%;">800</p>
+                            </div>
+                        </div>
+                        <div class="barcontainer">
+                            <div class="bar" style="height:60%">
+                                <p style="color: #fff; text-align: center; margin-top: 320%;">600</p>
+                            </div>
+                        </div>
+                        <div class="barcontainer">
+                            <div class="bar" style="height:30%">
+                                <p style="color: #fff; text-align: center; margin-top: 128%;">300</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+        </div>
+    </section>
+    <script>
+        let sidebar = document.querySelector(".sidebar");
+        let closeBtn = document.querySelector("#btn");
+        let searchBtn = document.querySelector(".bx-search");
+
+        closeBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("open");
+            menuBtnChange();
+        });
+
+        searchBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("open");
+            menuBtnChange();
+        });
+
+        function menuBtnChange() {
+            if (sidebar.classList.contains("open")) {
+                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+            } else {
+                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+            }
+        }
+
+        let circularProgress = document.querySelector(".circular-progress"),
+            progressValue = document.querySelector(".progress-value");
+
+        let progressStartValue = 0,
+            progressEndValue = 75,
+            speed = 100;
+
+        let progress = setInterval(() => {
+            progressStartValue++;
+
+            progressValue.textContent = `${progressStartValue}%`
+            circularProgress.style.background = `conic-gradient(#1d1b31 ${progressStartValue * 3.6}deg, #ededed 0deg)`
+
+            if (progressStartValue == progressEndValue) {
+                clearInterval(progress);
+            }
+        }, speed);
+
+    </script>
+</body>
+
+</html>

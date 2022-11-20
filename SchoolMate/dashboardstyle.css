@@ -267,11 +267,130 @@
   float: right;
   margin-top: -36.2%;
 }
+
+.speedometer {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 50%;
+  align-items: center;
+}
+.grid-child {
+  margin: 10px;
+  align-items: center;
+}
+
 .points {
-  background: #b4b2d2;
-  box-sizing: initial;
-  width: 300px;
+  border-radius: 10px;
   margin-left: 40px;
-  height: ;
+  height: 320px;
   margin-top: 18px;
+  display: flex;
+  width: 300px;
+  background: #b4b2d2;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attendance-container {
+  margin-left: 20px;
+  display: flex;
+  width: 300px;
+  height: 320px;
+  margin-top: 18px;
+  border-radius: 10px;
+  background: #b4b2d2;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.circular-progress {
+  position: relative;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  background: conic-gradient(#1d1b31 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #b4b2d2;
+}
+.progress-value {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #11101d;
+}
+.topgrid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 50%;
+}
+.topgrid-child {
+  margin: 10px;
+}
+.leaderboardtext {
+  align-items: left;
+}
+.leaderboard {
+  border-radius: 10px;
+  height: 560px;
+  display: flex;
+  width: 630px;
+  background: #b4b2d2;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaderboardcontainer {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 50px auto;
+}
+
+.barcontainer {
+  background-color: #fff;
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  margin-left: 50px;
+  width: 50px;
+  height: 320px;
+  float: left;
+  //border darken(#98AFC7, 40%) 3px solid
+  font-size: 50px;
+}
+
+.bar {
+  background-color: #1d1b31;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  //border-top: 6px solid #FFF;
+  box-sizing: border-box;
+  animation: grow 1.5s ease-out forwards;
+  transform-origin: bottom;
+}
+@keyframes grow {
+  from {
+    transform: scaleY(0);
+  }
 }

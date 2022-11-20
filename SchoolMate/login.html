@@ -23,12 +23,12 @@
 
                 <form action="#">
                     <div class="input-field">
-                        <input type="text" placeholder="Enter your email" required>
                         <i class="uil uil-envelope icon"></i>
+                        <input type="text" placeholder="Enter your email" required>
                     </div>
                     <div class="input-field">
-                        <input type="password" class="password" placeholder="Enter your password" required>
                         <i class="uil uil-lock icon"></i>
+                        <input type="password" class="password" placeholder="Enter your password" required>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
 
@@ -57,24 +57,27 @@
             <div class="form signup">
                 <span class="title">Registration</span>
 
-                <form action="#">
+                <form id="signup-form">
                     <div class="input-field">
-                        <input type="text" placeholder="Enter your name" required>
                         <i class="uil uil-user"></i>
+                        <input id="signup-name" type="text" placeholder="Enter your name" required>
                     </div>
+                    <div id="error-name" class="error-small"></div>
                     <div class="input-field">
-                        <input type="text" placeholder="Enter your email" required>
                         <i class="uil uil-envelope icon"></i>
+                        <input id="signup-email" type="text" placeholder="Enter your email" required>
+                    </div>
+                    <div id="error-email" class="error-small"></div>
+                    <div class="input-field">
+                        <i class="uil uil-lock icon"></i>
+                        <input id="signup-password" type="password" class="password" placeholder="Create password" required>
                     </div>
                     <div class="input-field">
-                        <input type="password" class="password" placeholder="Create password" required>
                         <i class="uil uil-lock icon"></i>
-                    </div>
-                    <div class="input-field">
-                        <input type="password" class="password" placeholder="Confirm password" required>
-                        <i class="uil uil-lock icon"></i>
+                        <input id="signup-password2" type="password" class="password" placeholder="Confirm password" required>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
+                    <div id="error-password" class="error-small"></div>
 
                     <div class="checkbox-text">
                         <div class="checkbox-content">
@@ -86,7 +89,7 @@
                     </div>
 
                     <div class="input-field button">
-                        <input type="button" value="Submit">
+                        <input id="signup-button" type="button" value="Submit">
                     </div>
                 </form>
 
