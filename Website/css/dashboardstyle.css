@@ -267,11 +267,74 @@
   float: right;
   margin-top: -36.2%;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 50%;
+}
+.grid-child {
+  margin: 10px;
+}
+
 .points {
-  background: #b4b2d2;
+  /*background: #b4b2d2;
   box-sizing: initial;
+  border-radius: 10px;
   width: 300px;
   margin-left: 40px;
-  height: ;
+  height: 400px;
+  */
+  border-radius: 10px;
+  margin-left: 40px;
+  height: 400px;
   margin-top: 18px;
+  display: flex;
+  width: 300px;
+  background: #b4b2d2;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attendance-container {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  margin-top: 18px;
+  padding: 50px;
+  border-radius: 8px;
+  background: #b4b2d2;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.circular-progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: conic-gradient(#1d1b31 3.6deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  background-color: #b4b2d2;
+}
+.progress-value {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #11101d;
+}
+.text {
+  font-size: 30px;
+  font-weight: 500;
 }

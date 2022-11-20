@@ -93,10 +93,22 @@
             </span>
 
         </div>
-        <div class="points">
-            <h3 style="position: ;">Total Points</h3>
-            <h1 style="font-size: 50px;">550</h1>
+        <div class="grid-container">
+            <div class="grid-child points">
+                <span>Total Points</span>
+                <h1 style="font-size: 50px;">550</h1>
+                <img class="speedometer" src="Website/img/speedometer.png" width="200">
+            </div>
+            <div class="grid-child attendance">
+                <div class="attendance-container">
+                    <h3>Attendance</h3>
+                    <div class="circular-progress">
+                        <span class="progress-value">0%</span>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </section>
     <script>
         let sidebar = document.querySelector(".sidebar");
@@ -121,6 +133,25 @@
                 closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
             }
         }
+
+        let circularProgress = document.querySelector(".circular-progress"),
+            progressValue = document.querySelector(".progress-value");
+
+        let progressStartValue = 0,
+            progressEndValue = 75,
+            speed = 100;
+
+        let progress = setInterval(() => {
+            progressStartValue++;
+
+            progressValue.textContent = `${progressStartValue}%`
+            circularProgress.style.background = `conic-gradient(#1d1b31 ${progressStartValue * 3.6}deg, #ededed 0deg)`
+
+            if (progressStartValue == progressEndValue) {
+                clearInterval(progress);
+            }
+        }, speed);
+
     </script>
 </body>
 
