@@ -194,7 +194,7 @@
   height: 45px;
   width: 45px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 50%;
   margin-right: 10px;
 }
 .sidebar li.profile .name,
@@ -237,28 +237,41 @@
   left: 250px;
   width: calc(100% - 250px);
 }
-.home-section .text {
+.home-section .dash {
   display: inline-block;
   color: #11101d;
   font-size: 25px;
   font-weight: 500;
-  margin: 18px;
+  margin-top: 18px;
+  margin-left: 40px;
+  margin-bottom: 25px;
 }
 @media (max-width: 420px) {
   .sidebar li .tooltip {
     display: none;
   }
 }
-
 .welcome-student {
   position: relative;
   background: #b4b2d2;
   box-sizing: initial;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-left: 30px;
   padding-bottom: 20px;
   border-radius: 10px;
-  margin: 18px;
+  margin-left: 40px;
   width: 620px;
   height: 120px;
+}
+.guy {
+  float: right;
+  margin-top: -36.2%;
+}
+.points {
+  background: #b4b2d2;
+  box-sizing: initial;
+  width: 300px;
+  margin-left: 40px;
+  height: ;
+  margin-top: 18px;
 }
