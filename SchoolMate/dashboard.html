@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Website/css/dashboardstyle.css">
+    <link rel="stylesheet" href="SchoolMate/dashboardstyle.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -111,7 +111,30 @@
             </div>
             <div class="topgrid-child right">
                 <div class="leaderboard">
-                    <h3></h3>
+                    <h3 class="leaderboardtext" style="margin-top: 10px; text-align: left;">Leaderboard</h3>
+                    <div class="leaderboardcontainer">
+                        <div class="barcontainer">
+                            <p></p>
+                            <div class="bar" style="height:85%">
+                                <p style="color: #fff; text-align: center; margin-top: 480%;">850</p>
+                            </div>
+                        </div>
+                        <div class="barcontainer">
+                            <div class="bar" style="height:80%">
+                                <p style="color: #fff; text-align: center; margin-top: 450%;">800</p>
+                            </div>
+                        </div>
+                        <div class="barcontainer">
+                            <div class="bar" style="height:60%">
+                                <p style="color: #fff; text-align: center; margin-top: 320%;">600</p>
+                            </div>
+                        </div>
+                        <div class="barcontainer">
+                            <div class="bar" style="height:30%">
+                                <p style="color: #fff; text-align: center; margin-top: 128%;">300</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -126,20 +149,19 @@
 
         closeBtn.addEventListener("click", () => {
             sidebar.classList.toggle("open");
-            menuBtnChange();//calling the function(optional)
+            menuBtnChange();
         });
 
-        searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+        searchBtn.addEventListener("click", () => {
             sidebar.classList.toggle("open");
-            menuBtnChange(); //calling the function(optional)
+            menuBtnChange();
         });
 
-        // following are the code to change sidebar button(optional)
         function menuBtnChange() {
             if (sidebar.classList.contains("open")) {
-                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
             } else {
-                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
             }
         }
 

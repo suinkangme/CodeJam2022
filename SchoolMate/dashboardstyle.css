@@ -312,8 +312,8 @@
 }
 .circular-progress {
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 230px;
+  width: 230px;
   border-radius: 50%;
   background: conic-gradient(#1d1b31 3.6deg, #ededed 0deg);
   display: flex;
@@ -323,8 +323,8 @@
 .circular-progress::before {
   content: "";
   position: absolute;
-  height: 210px;
-  width: 210px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   background-color: #b4b2d2;
 }
@@ -343,6 +343,9 @@
 .topgrid-child {
   margin: 10px;
 }
+.leaderboardtext {
+  align-items: left;
+}
 .leaderboard {
   border-radius: 10px;
   height: 560px;
@@ -352,4 +355,42 @@
   row-gap: 30px;
   flex-direction: column;
   align-items: center;
+}
+
+.leaderboardcontainer {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 50px auto;
+}
+
+.barcontainer {
+  background-color: #fff;
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
+  margin-left: 50px;
+  width: 50px;
+  height: 320px;
+  float: left;
+  //border darken(#98AFC7, 40%) 3px solid
+  font-size: 50px;
+}
+
+.bar {
+  background-color: #1d1b31;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  //border-top: 6px solid #FFF;
+  box-sizing: border-box;
+  animation: grow 1.5s ease-out forwards;
+  transform-origin: bottom;
+}
+@keyframes grow {
+  from {
+    transform: scaleY(0);
+  }
 }
