@@ -98,4 +98,4 @@ https://devpost.com/software/quality-driver-123loadboard
 
 <br>
 <br>
-Writed by Suin Kang
+written by Suin Kang
