@@ -8,6 +8,12 @@
 <br>
 <br>
 
+<h4>[ Judges ]🙋‍</h4>
+- *Matrox, 123Loadboard, 1Password, Canadian National Railway Company, ServiceNow, HoYoVerse, Mistplay, Morgan Stanley, Giro*
+
+<br>
+<br>
+
 <h4>[ Team Clueless ]🙋‍♂️</h4>
 
 | NAME | Github | LinkedIn |
