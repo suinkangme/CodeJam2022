@@ -2,12 +2,12 @@
 : CodeJam is the largest annual hackathon run by the McGill Electrical, Computer, and Software Engineering Student’ Society (usually in our very own Trottier Engineering Building). 
 
 
-<h4>[ Duration ]</h4>
+<h4>[ Duration ]🙋‍</h4>
 - Nov 18, 2022 to Nov 20, 2022 (36 hrs)
 
 <br> 
 
-<h4>🙋‍♂️[ Team Clueless ]🙋‍♂️</h4>
+<h4>[ Team Clueless ]🙋‍♂️</h4>
 
 | NAME | Github | LinkedIn |
 | --- | --- | --- |
