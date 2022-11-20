@@ -5,7 +5,8 @@
 <h4>[ Duration ]🙋‍</h4>
 - Nov 18, 2022 to Nov 20, 2022 (36 hrs)
 
-<br> 
+<br>
+<br>
 
 <h4>[ Team Clueless ]🙋‍♂️</h4>
 
@@ -16,7 +17,11 @@
 | Tung Do | https://github.com/OddyTD | https://www.linkedin.com/in/tung-do-85a1331aa/ |
 | Kimia Goodarzi | https://github.com/QueenKimm) | https://www.linkedin.com/in/kimia-goodarzi/ |
 
+<br>
+
 ***
+
+<br>
 
 ## 1. Website - SchoolMate 📝 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
 
