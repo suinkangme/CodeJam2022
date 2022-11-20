@@ -89,7 +89,7 @@ This is the Challenge Question from 123LoadBoard as part of the 12th Edition of 
 - The challenge we ran into was to generate variation in speed and acceleration in the most natural way possible. 
 
 <h4>Accomplishments that we're proud of</h4>
-The algorithm can check for four different states; A good driver, a dangerous driver, a driver breaking too hard or a driver dozing off. 
+- The algorithm can check for four different states; A good driver, a dangerous driver, a driver breaking too hard or a driver dozing off. 
 
 <h4>What we learned</h4> 
 - We learned how to work efficiently as a team and how to use GitHub to commit, push and pull code from a repository. 
