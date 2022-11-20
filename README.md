@@ -8,7 +8,7 @@
 ## 2. Challenge Question - Pain Points for Carriers 🚚 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 This is the Challenge Question from 123LoadBoard as part of the 12th Edition of McGill CodeJam.
 
-####Q) The question choosed by Team Clueless 
+####The question choosed by Team Clueless 
 
 Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for several hours straight, and if they are not well rested, they can experience fatigue and sleepiness on the road. Drowsiness while driving is hazardous for carriers and surrounding drivers. Keeping carriers awake and alert could save lives.
 
