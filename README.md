@@ -1,13 +1,15 @@
-## CodeJam2022_McGill
+## CodeJam2022_McGill🙌
 
-<h4>[ Team Clueless ]</h4>
+<h4>[🙋‍♂️[ Team Clueless ][🙋‍♂️</h4>
 
 | NAME | Github | LinkedIn |
 | --- | --- | --- |
-| Sarah Michelle Ang | https://github.com/yuzuryuu | 3 |
-| Suin Kang | https://github.com/suinkangme | 6 |
-| Tung Do | https://github.com/OddyTD | 9 |
-| Kimia Goodarzi | https://github.com/QueenKimm)
+| Sarah Michelle Ang | https://github.com/yuzuryuu | https://www.linkedin.com/in/sarah-michelle-ang-8075a2206/ |
+| Suin Kang | https://github.com/suinkangme | https://www.linkedin.com/in/suin-kang-b72b63203/ |
+| Tung Do | https://github.com/OddyTD | https://www.linkedin.com/in/tung-do-85a1331aa/ |
+| Kimia Goodarzi | https://github.com/QueenKimm) | https://www.linkedin.com/in/kimia-goodarzi/ |
+
+<br>
 
 
 ## 1. Website - SchoolMate 📝 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"><img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
@@ -48,4 +50,4 @@ The algorithm can check for four different states; A good driver, a dangerous dr
 <h4>What's next for Quality Driver</h4>
 - 123loadboard Improve driving quality with real-world data and implement a reward/reputation system to incentivize better driving.
 
-
+https://devpost.com/software/quality-driver-123loadboard
