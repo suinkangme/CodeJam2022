@@ -268,14 +268,22 @@
   margin-top: -36.2%;
 }
 
+.speedometer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   width: 50%;
+  align-items: center;
 }
 .grid-child {
   margin: 10px;
+  align-items: center;
 }
 
 .points {
@@ -288,7 +296,7 @@
   */
   border-radius: 10px;
   margin-left: 40px;
-  height: 400px;
+  height: 320px;
   margin-top: 18px;
   display: flex;
   width: 300px;
@@ -299,12 +307,12 @@
 }
 
 .attendance-container {
+  margin-left: 20px;
   display: flex;
   width: 300px;
-  height: 400px;
+  height: 320px;
   margin-top: 18px;
-  padding: 50px;
-  border-radius: 8px;
+  border-radius: 10px;
   background: #b4b2d2;
   row-gap: 30px;
   flex-direction: column;
@@ -333,8 +341,4 @@
   font-size: 40px;
   font-weight: 600;
   color: #11101d;
-}
-.text {
-  font-size: 30px;
-  font-weight: 500;
 }
