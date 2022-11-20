@@ -41,25 +41,23 @@
 
 <h3>🎯Our solution🎯</h3>
 - SchoolMate provides personalized schedules for every single student, who wishes to improve their GPA and create effective schedules to manage their school workload. It shows how many hours you study for a specific course, and tell which course you need to study more. Also, there is a progress status so that students can see how much percentage they accomplish their study goals. It inspires them to keep studying harder. 
+
 <br>
 
 <h4>Inspiration</h4>
-- 
-
-<h4>What it does</h4>
--  
+- Our team wants to create a website for students to help them to have better GPAs but less pressure for their university life.
 
 <h4>Challenges we ran into</h4>
-- 
+- Since we did not know many tech stacks, we needed to learn by ourselves to implement the function we wanted. But, it was worth it, we learned from this experience. 
 
 <h4>Accomplishments that we're proud of</h4>
--
+- Even though we are beginners, we succeeded in making the website, which can help students like us. 
 
 <h4>What we learned</h4> 
-- 
+- We learned how to work with the team and communicate with each other. Also, we learned how to think and use the skills need to be used to build a website. 
 
-<h4>What's next for Quality Driver</h4>
-- 
+<h4>What's next for SchoolMate</h4>
+- The majority of work we did in the hackathon is front-end based, and we could not implement back-end work like saving students' information to the database because we ran out of time. So, We need to work on the database and also need think about how can we effectively give inspiration to students to make them study harder.  
 
 <h4>Devpost</h4>
 
@@ -77,13 +75,10 @@ This is the Challenge Question from 123LoadBoard as part of the 12th Edition of 
 - A carrier is a trucker that moves loads of merchandise from point A to point B. A broker posts loads they need delivered on load boards to try to get their loads hauled by a carrier. A pain point is a common issue or problem faced by carriers and brokers that makes their jobs more difficult.
 
 <h3>🎯Our solution🎯</h3>
-- Does your drivers ever find themself dowsing off while driving long distance? Sweat no more, this algorithm can save the day. By monitoring change in speed, it can alert drivers by rewarding good driver and penalizing bad drivers.
+- This algorithm monitors the change in speed and acceleration and checks if the driver is being reckless, breaking too hard or even dozing off. ## How we built it We built this algorithm using Visual Studio Code as our IDE and Python as our programming language. 
 
 <h4>Inspiration</h4>
-- Sometimes driving long distances can be boring. A system that monitors and rewards good driving can increase driving quality. 
-
-<h4>What it does</h4>
-- This algorithm monitors the change in speed and acceleration and checks if the driver is being reckless, breaking too hard or even dozing off. ## How we built it We built this algorithm using Visual Studio Code as our IDE and Python as our programming language. 
+- Does your drivers ever find themself dowsing off while driving long distance? Sweat no more, this algorithm can save the day. By monitoring change in speed, it can alert drivers by rewarding good driver and penalizing bad drivers. Sometimes driving long distances can be boring. A system that monitors and rewards good driving can increase driving quality. 
 
 <h4>Challenges we ran into</h4>
 - The challenge we ran into was to generate variation in speed and acceleration in the most natural way possible. 
