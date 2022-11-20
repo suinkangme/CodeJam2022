@@ -1,6 +1,6 @@
 ## CodeJam2022_McGill
 
-[ Team Clueless ]
+<h4>[ Team Clueless ]</h4>
 - Tung Do(https://github.com/OddyTD)
 - Kimia Goodarzi(https://github.com/QueenKimm)
 - Suin Kang(https://github.com/suinkangme)
@@ -23,7 +23,7 @@ Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for sev
 Concepts
 : A carrier is a trucker that moves loads of merchandise from point A to point B. A broker posts loads they need delivered on load boards to try to get their loads hauled by a carrier. A pain point is a common issue or problem faced by carriers and brokers that makes their jobs more difficult.
 
-<h3>=> 123loadboard Elevation Pitch🎯 </h3>
+<h4>=> 123loadboard Elevation Pitch🎯 </h4>
 - Does your drivers ever find themself dowsing off while driving long distance? Sweat no more, this algorithm can save the day. By monitoring change in speed, it can alert drivers by rewarding good driver and penalizing bad drivers.
 
 <h4>Inspiration</h4>
