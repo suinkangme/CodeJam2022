@@ -14,7 +14,6 @@
 
 ***
 
-
 <h2>Team - Clueless</h2>
 
 | NAME | Github | LinkedIn |
@@ -23,8 +22,6 @@
 | Suin Kang | https://github.com/suinkangme | https://www.linkedin.com/in/suin-kang-b72b63203/ |
 | Tung Do | https://github.com/OddyTD | https://www.linkedin.com/in/tung-do-85a1331aa/ |
 | Kimia Goodarzi | https://github.com/QueenKimm) | https://www.linkedin.com/in/kimia-goodarzi/ |
-
-<br>
 
 <h2>[ Repo ]</h4>
 https://github.com/yuzuryuu/CodeJam2022
