@@ -1,5 +1,11 @@
 ## CodeJam2022_McGill
 
+| title1 | title2 | title3 |
+| --- | --- | --- |
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
+| 7 | 8 | 9 |
+
 <h4>[ Team Clueless ]</h4>
 NAME | Github
 --- |--- |
