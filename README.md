@@ -6,12 +6,10 @@
 - Nov 18, 2022 to Nov 20, 2022 (36 hrs)
 
 <br>
-<br>
 
 <h4>[ Judges ]🙋‍</h4>
 -<i> Matrox, 123Loadboard, 1Password, Canadian National Railway Company, ServiceNow, HoYoVerse, Mistplay, Morgan Stanley, Giro</i>
 
-<br>
 <br>
 
 ***
