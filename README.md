@@ -48,7 +48,7 @@
 - 
 
 <h4>Accomplishments that we're proud of</h4>
-
+-
 
 <h4>What we learned</h4> 
 - 
