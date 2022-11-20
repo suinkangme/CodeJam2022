@@ -1,6 +1,6 @@
 ## CodeJam2022_McGill🙌
 
-<h4>[🙋‍♂️[ Team Clueless ][🙋‍♂️</h4>
+<h4>[ Team Clueless ]🙋‍♂️</h4>
 
 | NAME | Github | LinkedIn |
 | --- | --- | --- |
