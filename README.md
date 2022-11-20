@@ -2,7 +2,7 @@
 
 <h4>[ Team Clueless ]</h4>
 | NAME | Github
-| --- |--- |
+|---|---|
 | Sarah Michelle Ang | https://github.com/yuzuryuu
 | Suin Kang | https://github.com/suinkangme
 | Tung Do | https://github.com/OddyTD
