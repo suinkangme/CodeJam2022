@@ -1,11 +1,12 @@
 ## CodeJam2022_McGill
 
 <h4>[ Team Clueless ]</h4>
-| NAME | Github
-|---|---|
-| Sarah Michelle Ang | https://github.com/yuzuryuu
-| Suin Kang | https://github.com/suinkangme
-| Tung Do | https://github.com/OddyTD
+
+| NAME | Github | LinkedIn |
+| --- | --- | --- |
+| Sarah Michelle Ang | https://github.com/yuzuryuu | 3 |
+| Suin Kang | https://github.com/suinkangme | 6 |
+| Tung Do | https://github.com/OddyTD | 9 |
 | Kimia Goodarzi | https://github.com/QueenKimm)
 
 
