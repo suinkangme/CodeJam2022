@@ -12,8 +12,6 @@
 
 <br>
 
-***
-
 <h2>Team - Clueless</h2>
 
 | NAME | Github | LinkedIn |
@@ -25,10 +23,6 @@
 
 <h2>[ Repo ]</h4>
 https://github.com/yuzuryuu/CodeJam2022
-
-<br>
-
-***
 
 <br>
 
