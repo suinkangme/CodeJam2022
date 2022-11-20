@@ -41,7 +41,7 @@ https://github.com/yuzuryuu/CodeJam2022
 <img src = "SchoolMate/img/SchoolMate.png">
 
 <h3>💡Concepts💡</h3>
-- Students are always busy with school with many workloads and class schedules. Sometimes, they used to miss important deadlines and cannot make a study plan because they get overwhelmed by pressure. SchoolMate can help students to improve their GPA, but also to succeed in their university life. 
+- Students are always busy with school with many workloads and class schedules. Sometimes, they used to miss important deadlines and cannot make a study plan because &nbsp they get overwhelmed by pressure. SchoolMate can help students to improve their GPA, but also to succeed in their university life. 
 
 <h3>🎯Our solution🎯</h3>
 - SchoolMate provides personalized schedules for every single student, who wishes to improve their GPA and create effective schedules to manage their school workload. It shows how many hours you study for a specific course, and tell which course you need to study more. Also, there is a progress status so that students can see how much percentage they accomplish their study goals. It inspires them to keep studying harder. 
