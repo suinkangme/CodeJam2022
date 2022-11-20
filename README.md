@@ -70,9 +70,8 @@
 ## 2. Challenge Question - Pain Points for Carriers 🚚 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 This is the Challenge Question from 123LoadBoard as part of the 12th Edition of McGill CodeJam.
 
-The question choosed by Team Clueless 
-
-Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for several hours straight, and if they are not well rested, they can experience fatigue and sleepiness on the road. Drowsiness while driving is hazardous for carriers and surrounding drivers. Keeping carriers awake and alert could save lives.
+<h3>Challenge</h3>
+- Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for several hours straight, and if they are not well rested, they can experience fatigue and sleepiness on the road. Drowsiness while driving is hazardous for carriers and surrounding drivers. Keeping carriers awake and alert could save lives.
 
 <h3>💡Concepts💡</h3>
 - A carrier is a trucker that moves loads of merchandise from point A to point B. A broker posts loads they need delivered on load boards to try to get their loads hauled by a carrier. A pain point is a common issue or problem faced by carriers and brokers that makes their jobs more difficult.
@@ -90,7 +89,7 @@ Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for sev
 - The challenge we ran into was to generate variation in speed and acceleration in the most natural way possible. 
 
 <h4>Accomplishments that we're proud of</h4>
-The algorithm can check for four different states; A good driver, a dangerous driver, a driver breaking too hard or a driver dozing off. 
+- The algorithm can check for four different states; A good driver, a dangerous driver, a driver breaking too hard or a driver dozing off. 
 
 <h4>What we learned</h4> 
 - We learned how to work efficiently as a team and how to use GitHub to commit, push and pull code from a repository. 
