@@ -40,7 +40,6 @@ https://github.com/yuzuryuu/CodeJam2022
 
 <img src = "SchoolMate/img/SchoolMate.png">
 
-
 <h3>💡Concepts💡</h3>
 - Students are always busy with school with many workloads and class schedules. Sometimes, they used to miss important deadlines and cannot make a study plan because they get overwhelmed by pressure. SchoolMate can help students to improve their GPA, but also to succeed in their university life. 
 
@@ -62,7 +61,7 @@ https://github.com/yuzuryuu/CodeJam2022
 - We learned how to work with the team and communicate with each other. Also, we learned how to think and use the skills need to be used to build a website. 
 
 <h4>What's next for SchoolMate</h4>
-- The majority of work we did in the hackathon is front-end based, and we could not implement back-end work like saving students' information to the database because we ran out of time. So, We need to work on the database and also need think about how can we effectively give inspiration to students to make them study harder.  
+- The majority of work we did in this hackathon is front-end based, and we could not implement back-end elements such as saving students' information to the database because we ran out of time. We need to work on implementing a database as well as think about how can we effectively motivate the students to study harder.  
 
 <h4>Devpost</h4>
 https://devpost.com/software/schoolmate
@@ -75,7 +74,6 @@ https://devpost.com/software/schoolmate
 
 <img src = "123Loadboard_Challenge/Quality_Driver_Background.png">
 This is the Challenge Question from 123LoadBoard as part of the 12th Edition of McGill CodeJam.
-
 
 <h3>Challenge</h3>
 - Staying Awake while Driving 💤 ⚡ Problem Carriers drive large trucks for several hours straight, and if they are not well rested, they can experience fatigue and sleepiness on the road. Drowsiness while driving is hazardous for carriers and surrounding drivers. Keeping carriers awake and alert could save lives.
@@ -103,7 +101,6 @@ This is the Challenge Question from 123LoadBoard as part of the 12th Edition of 
 
 <h4>Devpost</h4>
 https://devpost.com/software/quality-driver-123loadboard
-
 
 <br>
 <br>
